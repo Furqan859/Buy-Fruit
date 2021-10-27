@@ -4,15 +4,43 @@ body{
 }
 
 #nav-bar{
-    background-color: burlywood;
+   
 }
 
 nav{
     height: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
     
 }
 
 #nav-div{
     float: right;
     
+}
+
+.nav-menu{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-button{
+    text-decoration: none;
+    margin: 5px;
+    padding: 7px 25px;
+    background-color: rgb(143, 201, 56);
+    color: honeydew;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.nav-pic{
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
 }
