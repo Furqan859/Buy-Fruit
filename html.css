@@ -211,35 +211,83 @@ nav {
 }
 
 
-#vegan-page{
+#vegan-page {
     padding-top: 100px;
-    background-color:antiquewhite;
-    height:100%;
-    width:100%;
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
 }
 
-.vegan-p{
+.vegan-p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   
+
 }
 
-.vegan-text-1{
+.vegan-text-1 {
     font-size: 25px;
-color:green;
+    color: green;
 }
 
-.vegan-text-2{
-font-size:45px;
-margin-top: 40px;
-margin-bottom: 30px;
+.vegan-text-2 {
+
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.vegan-text-3{
-font-family: sans-serif;
-opacity: .5;
+.vegan-text-3 {
+    font-family: sans-serif;
+    opacity: .5;
 }
+
+.vegan-camera-icon{
+    margin-left:90px;
+    margin-right: 60px;
+    border-radius:50%;
+    height:150px;
+    width:150px;
+    background-size: cover;
+    
+}
+
+
+#vegan-main-div{
+    padding-bottom: 120px;
+    margin-top:80px;
+    height:auto;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.vegan-main-div-p{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: bold;
+}
+
+
+.vegan-main-div-span{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: bold;
+}
+
+
 
