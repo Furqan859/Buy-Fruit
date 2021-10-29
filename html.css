@@ -292,4 +292,103 @@ nav {
 }
 
 
+#vegan-div-2nd{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+}
 
+
+.vegan-div-text-p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: bold;
+}
+
+.vegan-text-h2{
+font-size: 35px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.vegan-text-h2-p{
+    opacity: .5;
+    margin-bottom: 50px;
+}
+
+
+#main-div-boxes{
+    background-color:beige;
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+    height:auto;
+    width: auto;
+}
+.main-div-partions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+
+
+.box-1{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(250, 249, 249);
+    border-radius: 40px 0 40px 40px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+.box-1:hover{
+    
+    margin: 1px;
+    
+    box-shadow: 5px 10px 10px 10px rgb(250,240,240);
+}
+
+
+
+
+
+
+
+.box-image-1{
+    height: 60px;
+    width: 60px;
+    border-radius:50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box-image-para{
+    margin-left: auto;
+    margin-right:auto;
+    opacity: .5;
+}
+
+.box-image-para-h2{
+    align-self: center;
+}
+
+.box-image-para-h2-pa{
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+
+#strawberries{
+height: 100%;
+width:100%;
+}
