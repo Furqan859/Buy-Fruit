@@ -380,6 +380,7 @@ margin-bottom: 30px;
 
 .box-image-para-h2{
     align-self: center;
+   
 }
 
 .box-image-para-h2-pa{
@@ -392,3 +393,89 @@ margin-bottom: 30px;
 height: 100%;
 width:100%;
 }
+
+
+.div-sets{
+    display: flex;
+    flex-direction:row;
+    height: 500px;
+    width: 800px;
+    position: relative;
+    
+   
+}
+
+
+.strawberries-div-set{
+   height:100%;
+   width:100%;
+}
+
+
+.strawberries-img-set{
+    width: 800px;
+    height: 500px;
+    opacity: .9;
+    object-fit: cover;
+}
+
+.strawberries-div-set-2{
+width:450px;
+height:500px;
+opacity: .4;
+object-fit: cover;
+
+
+}
+
+
+.sign-up-div{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    opacity: .6;
+    
+    position: relative;
+    height:380px;
+    width: 350px;
+    top: -85%;
+    left: 10%;
+    transform: translate(-85%-40%)
+}
+
+.para-p-input{
+    margin-top:20px;
+}
+
+
+.input-field{
+    margin-top: 50px;
+    height:35px;
+    width:250px;
+    align-self: center;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    
+}
+
+
+.btn-primary{
+    margin-top:30px;
+    align-self: center;
+    font-size:18px;
+    height:50px;
+    width:120px;
+    border: none;
+    background-color:red;
+
+    
+}
+
+.btn-primary:hover{
+    color:red;
+    background-color: transparent ;
+    border: 1px solid red;
+}
+
+
